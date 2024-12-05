@@ -1,13 +1,28 @@
-title: John Doe # your name (or website title) here
+title: Nnenna Eze # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  Email: nnenna.eze777@gmail.com
+  <br>
+  Current Location: Boston, MA **Open to alternate locations
+  <br>
+  Interested in: Data Science and Analytics, Data Engineering, Music and Management,
+  Fields in conjunction with music and data
   <br><br>
-  Second description 
+  I am very interested in combining my data analysis skills with my passion for the creative arts. My experience with software 
+  and data engineering includes a 2 year rotational program through John Hancock, where I first worked as a full stack engineer: 
+  utilizing Java, HTML, CSS, ReactJs, and SQL to manage multiple codebases and their respective databases simultaneously. I 
+  also took on more leadership through facilitating daily production support meetings and collaborating with business analysts on client requests. 
+  I then transitioned to a role within the data team, where I used Informatica to analyze data mappings and resolve database issues, and Microsoft 
+  Power BI to visualize this data. This experience sparked my interest in data, prompting me to deepen my knowledge of machine learning and data analysis 
+  tools. I still have much to learn, but am enthusiastic and always looking for self improvement. Beyond my technical expertise I have hands-on experience 
+  in the music industry. I play several instruments myself, and have learned more everyday working for a local performance venue in my neighborhood. I have 
+  helped set up sound for countless performances: setting up different mics, adjusting settings on a PA board, and working with electronic equipment. 
+  Occasionally I set up live performances for recording, and use a DAW to mix tracks before sending them out to bands. I have learned so much through this role, 
+  and love to learn more everyday. 
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/nnenna-eze-0b268616a/">View My LinkedIn Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
-google_analytics: UA-000000-0 # your Google Analytics tracking ID here
+#google_analytics: UA-000000-0 # your Google Analytics tracking ID here
