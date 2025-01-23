@@ -12,6 +12,13 @@ For this project, I create a "Choose Your Own Adventure" chabot through openrout
 <img src="images/cyoa_chatsc.png?raw=true"/>
 
 ---
+[Natural Language Processing Chatbot](/sample_page)
+
+This project focuses primarily on NLP concept, using NLTK (Natural Language Toolkit), Tensorflow, and Keras API to prepare and train a chatbot to understand basic English language phrases such as greetings, goodbyes, and pleasantries. These phrases are stored in a json file, then the code tokenizes each sentence so they are broken up into their core words. Following tokenization, each word is formatted to be lowercase, and then lemmatized - that is, to be shortened to its root form. Finally, a Stocahstic Gradient Descent model with 3 layers is compiled and fitted to train the data over 200 epochs. After each epoch cycle, accuracy and loss of the cycle are recorded.  
+
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+---
 [Kaggle Competition: Housing Prices](/pdf/sample_presentation.pdf)
 
 Kaggle is a data science platform that hosts machine learning competitions for its online community. This particular machine learning competition gives the user a dataset of houses and their respective prices, and requires that the user build a model to accurately predict the sale price of houses in a new dataset. For my predictions, I use a Random Forest classifier model, which is a model that takes the mean value of multiple Decision Trees. I used this model, along with specific features chosen based on which feature combination would provide the lowest mean absolute error with the validation data. 
