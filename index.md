@@ -9,7 +9,7 @@
 
 For this project, I create a "Choose Your Own Adventure" chabot through openrouter API with the mistrel 7b model: a model which free for use and compatible with ChatGPTs OpenAI package. The chatbot assumes the role of a DND dungeon master that sets up an environment and creates a story that develops based on user interative choices! 
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/cyoa_chatsc.png?raw=true"/>
 
 ---
 [Kaggle Competition: Housing Prices](/pdf/sample_presentation.pdf)
