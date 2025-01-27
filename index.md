@@ -39,8 +39,6 @@ description
 - [Recording 1](http://example.com/)
 - [Recording 2](http://example.com/)
 - [Me Recording](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
 
 ---
 
