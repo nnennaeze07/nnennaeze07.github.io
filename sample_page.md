@@ -1,31 +1,51 @@
-## This can be your internal website page / project page
+## Choose Your Own Adventure Chatbot Project Page
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Project description:**
+For this project, I create a “Choose Your Own Adventure” chabot through openrouter API with the mistrel 7b model: a model (compatible with ChatGPTs OpenAI package). The chatbot assumes the role of a DND dungeon master that sets up an environment and creates a story that develops based on user interative choices. Gradio is used to create an interface for the chatbot.
 
-### 1. Suggest hypotheses about the causes of observed phenomena
+### 1. OpenRouter API Call
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+I start with a simple API call through OpenRouter, which is free and compatible with ChatGPTs OpenAI package. I have created a .env file to store the openrouter api key for security purposes.
 
-```javascript
-if (isAwesome){
-  return true
-}
+```python
+client = OpenAI(
+base_url = "https://openrouter.ai/api/v1",
+api_key = os.getenv("OPENAI_KEY"),
+)
 ```
 
-### 2. Assess assumptions on which statistical inference will be based
+### 2. Assign System Role
 
-```javascript
-if (isAwesome){
-  return true
-}
+The next step is to assign the system role. The system role can be specified by the developer so that the chatbot assumes this role throughout the conversation. For example, if you would like a chatbot that acts as a financial assistant, you can describe this in the system message
+
+```python
+system_msg = "Act as a financial expert assistant to the user"
 ```
 
-### 3. Support the selection of appropriate statistical tools and techniques
+The system message can be as descriptive as the developer would like, and a more advanced chatbot may be need more information from the system message to act accordingly. For the Choose Your Own Adventure chatbot, for example, the system message is about 2-3 sentences, and breifly explains the concept of choose-your-own-adventures. After the message is written, we assign it to the content key in a messages variable:
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+```python
+messages = [{"role": "system", "content": system_msg}]
+```
 
-### 4. Provide a basis for further data collection through surveys or experiments
+### 3. Responses to the User
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+The chatbot of course allows for input from the user, which then triggers a new response  by the chatbot. By appending inputs to our messages array, the chatbot will remember previous responses to create continued conversation. 
+
+```python
+def CustomChatGPT(user_input, history):
+    messages.append({"role": "user", "content": user_input})
+    response = client.chat.completions.create(
+        model = "mistralai/mistral-7b-instruct:free",
+        messages = messages
+    )
+    ChatGPT_reply = response.choices[0].message.content
+    messages.append({"role": "assistant", "content": ChatGPT_reply})
+    return ChatGPT_reply
+```
+
+Using Gradio's ChatInterface, we are able to get a nice interface to interact with our chatbot!
+
+<img src="images/cyoa_chatsc.png?raw=true"/>
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
