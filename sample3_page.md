@@ -13,7 +13,7 @@ The training data must then be split into training and validation data. Since th
 
 There are several preprocessing steps required before the data can be fed into the model. We will first drop any categorical columns (columns that have data stored with names or labels rather than numeric values) that are not worth encoding, which might include columns that have mostly null values, or too many unique values. Then, an ordinal encoder is applied to the categorical columns that are kept. An ordinal encoder allows for the categorical data to be transformed into numerical format based on their ordinal relationship with each other. After the encoder, the data is imputed so that any remaining null values are replaced with mathematically estimated values. It is important to keep in mind that some null data many not necessarily be missing data. fro example, a feature that records how big the porch of a house is may be null because that house does not have a porch.
 
-<img src="images/cyoa_chatsc.png?raw=true"/>
+<img src="images/kagglesc1.png?raw=true"/>
 
 After imputation is complete, that data is finally ready for our model to be fitted with.
 
@@ -21,11 +21,13 @@ After imputation is complete, that data is finally ready for our model to be fit
 
 As discussed earlier, for this regression problem  the Random Forest classifier is used. This classifier creates a set of decision trees and collects votes from the different trees to decide a final prediction. Below we have an image of a single decision, and then multiples decisions that interconnected.
 
-<img src="images/cyoa_chatsc.png?raw=true"/>
+<img src="images/decisiontree.png?raw=true"/>
 
-<img src="images/cyoa_chatsc.png?raw=true"/>
+<img src="images/randomforest.png?raw=true"/>
 
 We define our Random Forest Regression model with n_estimators=100, which means we will use 100 decision trees in the forest. We record the accuracy of the model by noting the valuee of the mean absolute error.
+
+<img src="images/kagglesc2.png?raw=true"/>
 
 Using Gradio's ChatInterface, we are able to get a nice interface to interact with our chatbot!
 
