@@ -12,7 +12,7 @@ For this project, I create a "Choose Your Own Adventure" chabot through openrout
 <img src="images/cyoa_chatsc.png?raw=true"/>
 
 ---
-[Natural Language Processing Chatbot](/sample_page2)
+[Natural Language Processing Chatbot](/sample2_page)
 
 This project focuses primarily on NLP concept, using NLTK (Natural Language Toolkit), Tensorflow, and Keras API to prepare and train a chatbot to understand basic English language phrases such as greetings, goodbyes, and pleasantries. These phrases are stored in a json file, then the code tokenizes each sentence so they are broken up into their core words. Following tokenization, each word is formatted to be lowercase, and then lemmatized - that is, to be shortened to its root form. Finally, a Stocahstic Gradient Descent model with 3 layers is compiled and fitted to train the data over 200 epochs. After each epoch cycle, accuracy and loss of the cycle are recorded.  
 
