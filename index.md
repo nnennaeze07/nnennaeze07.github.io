@@ -12,11 +12,11 @@ For this project, I create a "Choose Your Own Adventure" chabot through openrout
 <img src="images/cyoa_chatsc.png?raw=true"/>
 
 ---
-[Natural Language Processing Chatbot](/sample_page)
+[Natural Language Processing Chatbot](/sample_page2)
 
 This project focuses primarily on NLP concept, using NLTK (Natural Language Toolkit), Tensorflow, and Keras API to prepare and train a chatbot to understand basic English language phrases such as greetings, goodbyes, and pleasantries. These phrases are stored in a json file, then the code tokenizes each sentence so they are broken up into their core words. Following tokenization, each word is formatted to be lowercase, and then lemmatized - that is, to be shortened to its root form. Finally, a Stocahstic Gradient Descent model with 3 layers is compiled and fitted to train the data over 200 epochs. After each epoch cycle, accuracy and loss of the cycle are recorded.  
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/nltk_chatsc5.png?raw=true"/>
 
 ---
 [Kaggle Competition: Housing Prices](/pdf/sample_presentation.pdf)
@@ -36,7 +36,7 @@ description
 
 ### Sound Experience
 
-- [Recording 1](http://example.com/)
+- [Live Recording of Serena Jade at The Lilypad](http://example.com/)
 - [Recording 2](http://example.com/)
 - [Me Recording](http://example.com/)
 
