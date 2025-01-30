@@ -7,7 +7,9 @@ This machine learning competitionn gives the user a dataset of house and prices,
 
 Kaggle provides the housing data for a training set and a testing set. Some important libraries to note is the use of python pandas, as well as scikit-learn, which is an open source machine learning library. There are many features provided in the dataset to be used for modeling, however some may be more useful for the model than others. Using too many features can skew the model with irrelevant information. Therefore, I have only used a select number of features, wuch as the year sold, year built, lot size and area, quality of beds and baths, neighborhood information, and a few others.
 
-<img src="images/cyoa_chatsc.png?raw=true"/>
+```python
+features = ['LotArea', 'HouseStyle', 'Street', 'Neighborhood', 'Foundation', 'BldgType', 'YearBuilt', 'YrSold', 'YearRemodAdd', 'Electrical','1stFlrSF', '2ndFlrSF', 'FullBath', 'BedroomAbvGr', 'HalfBath', 'GrLivArea', 'KitchenAbvGr', 'TotRmsAbvGrd', 'OverallCond', 'OverallQual', 'PoolArea', 'EnclosedPorch', 'OpenPorchSF', 'WoodDeckSF', 'ScreenPorch', 'Fireplaces']
+```
 
 The training data must then be split into training and validation data. Since this is a regression problem where the goal is to make a prediction, the model must first be trained with provided y values so it can learn a pattern, and then the validation data is used to see how well the model has learned to predict those y values.
 
@@ -29,9 +31,6 @@ We define our Random Forest Regression model with n_estimators=100, which means 
 
 <img src="images/kagglesc2.png?raw=true"/>
 
-Using Gradio's ChatInterface, we are able to get a nice interface to interact with our chatbot!
-
-<img src="images/cyoa_chatsc.png?raw=true"/>
-
+Find the full Kaggle code [here](https://www.kaggle.com/code/nnennaeze/exercise-machine-learning-competitions?scriptVersionId=200258904)
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
