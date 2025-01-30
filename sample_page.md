@@ -48,4 +48,14 @@ Using Gradio's ChatInterface, we are able to get a nice interface to interact wi
 
 <img src="images/cyoa_chatsc.png?raw=true"/>
 
+Citations:
+
+https://www.gradio.app/docs/gradio/chatinterface
+
+https://www.youtube.com/watch?v=pGOyw_M1mNE&ab_channel=TheAIAdvantage
+
+https://openrouter.ai/docs/requests
+
+https://platform.openai.com/docs/api-reference/introduction
+
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
