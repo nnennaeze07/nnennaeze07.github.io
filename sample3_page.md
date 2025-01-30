@@ -1,61 +1,35 @@
 ## Kaggle Competition: Predicting Housing Prices Project Page
 
 **Project description:**
-This machine learning competitionn gives the user a dataset of house and prices, along with specific features of the houses that include number of beds and baths, lot size, yard size, neighborhood information, year built, and so on. The goal of the competition is to build and train a model that will accurately predict the sale price of houses in a new dataset. For my model, I use a Random Forest classifier, which is a model that takes the mean value of multiple Decision Trees. I used this model, along with specific features that I tested based on which feature combination would provide the lowest mean absolute error with the validation data used.
+This machine learning competitionn gives the user a dataset of house and prices, along with specific features of the houses that include quality of beds and baths, lot size, yard size, neighborhood information, year built, and so on. The goal of the competition is to build and train a model that will accurately predict the sale price of houses in a new dataset. For my model, I use a Random Forest classifier, which is a model that takes the mean value of multiple decision trees. I used this model, along with specific features that I tested based on which feature combination would provide the lowest mean absolute error with the validation data used.
 
-### 1. OpenRouter API Call
+### 1. Preprocessing Steps
 
-I start with a simple API call through OpenRouter, which is free and compatible with ChatGPTs OpenAI package. I have created a .env file to store the openrouter api key for security purposes.
+Kaggle provides the housing data for a training set and a testing set. Some important libraries to note is the use of python pandas, as well as scikit-learn, which is an open source machine learning library. There are many features provided in the dataset to be used for modeling, however some may be more useful for the model than others. Using too many features can skew the model with irrelevant information. Therefore, I have only used a select number of features, wuch as the year sold, year built, lot size and area, quality of beds and baths, neighborhood information, and a few others.
 
-```python
-client = OpenAI(
-base_url = "https://openrouter.ai/api/v1",
-api_key = os.getenv("OPENAI_KEY"),
-)
-```
+<img src="images/cyoa_chatsc.png?raw=true"/>
 
-### 2. Assign System Role
+The training data must then be split into training and validation data. Since this is a regression problem where the goal is to make a prediction, the model must first be trained with provided y values so it can learn a pattern, and then the validation data is used to see how well the model has learned to predict those y values.
 
-The next step is to assign the system role. The system role can be specified by the developer so that the chatbot assumes this role throughout the conversation. For example, if you would like a chatbot that acts as a financial assistant, you can describe this in the system message
+There are several preprocessing steps required before the data can be fed into the model. We will first drop any categorical columns (columns that have data stored with names or labels rather than numeric values) that are not worth encoding, which might include columns that have mostly null values, or too many unique values. Then, an ordinal encoder is applied to the categorical columns that are kept. An ordinal encoder allows for the categorical data to be transformed into numerical format based on their ordinal relationship with each other. After the encoder, the data is imputed so that any remaining null values are replaced with mathematically estimated values. It is important to keep in mind that some null data many not necessarily be missing data. fro example, a feature that records how big the porch of a house is may be null because that house does not have a porch.
 
-```python
-system_msg = "Act as a financial expert assistant to the user"
-```
+<img src="images/cyoa_chatsc.png?raw=true"/>
 
-The system message can be as descriptive as the developer would like, and a more advanced chatbot may be need more information from the system message to act accordingly. For the Choose Your Own Adventure chatbot, for example, the system message is about 2-3 sentences, and breifly explains the concept of choose-your-own-adventures. After the message is written, we assign it to the content key in a messages variable:
+After imputation is complete, that data is finally ready for our model to be fitted with.
 
-```python
-messages = [{"role": "system", "content": system_msg}]
-```
+### 2. Random Forest Regression Model
 
-### 3. Responses to the User
+As discussed earlier, for this regression problem  the Random Forest classifier is used. This classifier creates a set of decision trees and collects votes from the different trees to decide a final prediction. Below we have an image of a single decision, and then multiples decisions that interconnected.
 
-The chatbot of course allows for input from the user, which then triggers a new response  by the chatbot. By appending inputs to our messages array, the chatbot will remember previous responses to create continued conversation. 
+<img src="images/cyoa_chatsc.png?raw=true"/>
 
-```python
-def CustomChatGPT(user_input, history):
-    messages.append({"role": "user", "content": user_input})
-    response = client.chat.completions.create(
-        model = "mistralai/mistral-7b-instruct:free",
-        messages = messages
-    )
-    ChatGPT_reply = response.choices[0].message.content
-    messages.append({"role": "assistant", "content": ChatGPT_reply})
-    return ChatGPT_reply
-```
+<img src="images/cyoa_chatsc.png?raw=true"/>
+
+We define our Random Forest Regression model with n_estimators=100, which means we will use 100 decision trees in the forest. We record the accuracy of the model by noting the valuee of the mean absolute error.
 
 Using Gradio's ChatInterface, we are able to get a nice interface to interact with our chatbot!
 
 <img src="images/cyoa_chatsc.png?raw=true"/>
 
-Citations:
-
-https://www.gradio.app/docs/gradio/chatinterface
-
-https://www.youtube.com/watch?v=pGOyw_M1mNE&ab_channel=TheAIAdvantage
-
-https://openrouter.ai/docs/requests
-
-https://platform.openai.com/docs/api-reference/introduction
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
