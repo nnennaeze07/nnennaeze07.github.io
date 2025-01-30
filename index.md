@@ -23,7 +23,7 @@ This project focuses primarily on NLP concept, using NLTK (Natural Language Tool
 
 Kaggle is a data science platform that hosts machine learning competitions for its online community. This particular machine learning competition gives the user a dataset of houses and their respective prices, and requires that the user build a model to accurately predict the sale price of houses in a new dataset. For my predictions, I use a Random Forest classifier model, which is a model that takes the mean value of multiple Decision Trees. I used this model, along with specific features chosen based on which feature combination would provide the lowest mean absolute error with the validation data. 
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/kaggle.png?raw=true"/>
 
 ---
 [Music Through Data: ](http://example.com/)
