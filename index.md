@@ -36,15 +36,13 @@ description
 
 ### Sound Experience
 
-- [Live Recording of Serena Jade at The Lilypad](http://example.com/)
-- [Recording 2](http://example.com/)
-- [Me Recording](http://example.com/)
+- [Serena Jade's 2024 EP Title Track Rainbow Potential: Live at The Lilypad](http://example.com/)
+- [Oscar Hall's Cover of Bright Red by Ryan Beatty: Live at The Lilypad](http://example.com/)
+- [Sample Recording of my Unreleased Track](http://example.com/)
+- [Sample Recording of my cover of Something by Someone](http://example.com/)
 
+  **all tracks above were recorded and mixed by me, mixed use of Allen & Heath QU-16 Sound Mixer, Reaper DAW, and home hardware (fix wording)
 ---
-
-
-
-
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
