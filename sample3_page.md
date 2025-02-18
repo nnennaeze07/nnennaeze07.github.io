@@ -23,14 +23,15 @@ After imputation is complete, that data is finally ready for our model to be fit
 
 As discussed earlier, for this regression problem  the Random Forest classifier is used. This classifier creates a set of decision trees and collects votes from the different trees to decide a final prediction. Below we have an image of a single decision, and then multiples decisions that interconnected.
 
-<img src="images/decisiontree.png?raw=true"/>
+<p align="center">
+  <img src="images/decisiontree.png?raw=true" height="425"/>
+  <br><br>
+  <img src="images/randomforest.png?raw=true" height="425"/>
+</p>
 
-<img src="images/randomforest.png?raw=true"/>
 
 We define our Random Forest Regression model with n_estimators=100, which means we will use 100 decision trees in the forest. We record the accuracy of the model by noting the valuee of the mean absolute error.
 
 <img src="images/kagglesc2.png?raw=true"/>
 
 Find the full Kaggle code [here](https://www.kaggle.com/code/nnennaeze/exercise-machine-learning-competitions?scriptVersionId=200258904)
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
