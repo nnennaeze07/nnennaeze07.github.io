@@ -2,15 +2,15 @@ title: Nnenna Eze # your name (or website title) here
 logo: "/images/20220423_125618.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   Email: nnenna.eze777@gmail.com
-  <br>
+  <br><br>
   Current Location: Boston, MA **Open to alternate locations
-  <br>
+  <br><br>
   Interested in: Data Science and Analytics, Data Engineering, Music and Management, Fields in conjunction with music and data
   <br><br>
   <a href="https://www.linkedin.com/in/nnenna-eze-0b268616a/">View My LinkedIn Profile</a> 
-  <br><br>
+  <br>
   <a href="https://github.com/nnennaeze07">View My Github Profile</a>
-  <br><br>
+  <br>
   <a href="/pdf/Eze_Resume_2025.pdf">View My Resume</a>
   
 remote_theme: pages-themes/minimal@v0.2.0
