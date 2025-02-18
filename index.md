@@ -26,13 +26,6 @@ Kaggle is a data science platform that hosts machine learning competitions for i
 <img src="images/kaggle.png?raw=true"/>
 
 ---
-[Music Through Data: ](http://example.com/)
-
-description
-
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
 
 ### Sound Experience
 
@@ -41,7 +34,7 @@ description
 - [Sample Recording of my Unreleased Track](http://example.com/)
 - [Sample Recording of my cover of Something by Someone](http://example.com/)
 
-  <p>all tracks above were recorded and mixed by me (Nnenna Eze). Mixed use of Allen & Heath QU-16 Sound Mixer, Reaper DAW, and home hardware. When recording live performances I opted not to use pitch correction to keep the authenticity of the performance. </p>
+  <p>A few examples of my recording and mixing experience: all tracks above were recorded and mixed by me (Nnenna Eze). Mixed use of Allen & Heath QU-16 Sound Mixer, Reaper DAW, and home hardware. When recording live performances I opted not to use pitch correction to keep the authenticity of the performance. </p>
 ---
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
