@@ -41,7 +41,7 @@ description
 - [Sample Recording of my Unreleased Track](http://example.com/)
 - [Sample Recording of my cover of Something by Someone](http://example.com/)
 
-  all tracks above were recorded and mixed by me (Nnenna Eze). Mixed use of Allen & Heath QU-16 Sound Mixer, Reaper DAW, and home hardware. When recording live performances I opted not to use pitch correction to keep the authenticity of the performance. 
+  <p>all tracks above were recorded and mixed by me (Nnenna Eze). Mixed use of Allen & Heath QU-16 Sound Mixer, Reaper DAW, and home hardware. When recording live performances I opted not to use pitch correction to keep the authenticity of the performance. </p>
 ---
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
