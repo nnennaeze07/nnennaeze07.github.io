@@ -112,4 +112,3 @@ https://dzone.com/articles/python-chatbot-project-build-your-first-python-pro
 
 https://docs.python.org/3/library/tkinter.html
 
-more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
