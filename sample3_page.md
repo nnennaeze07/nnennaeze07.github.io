@@ -34,4 +34,4 @@ We define our Random Forest Regression model with n_estimators=100, which means 
 
 <img src="images/kagglesc2.png?raw=true"/>
 
-Find the full Kaggle code [here](https://www.kaggle.com/code/nnennaeze/exercise-machine-learning-competitions?scriptVersionId=200258904)
+Find the full Kaggle code [here](https://www.kaggle.com/code/nnennaeze/exercise-machine-learning-competitions)
