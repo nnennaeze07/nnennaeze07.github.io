@@ -36,7 +36,7 @@ description
 
 ### Sound Experience
 
-- [Serena Jade's 2024 EP Title Track Rainbow Potential: Live at The Lilypad](http://example.com/)
+- [Serena Jade's 2024 EP Title Track Rainbow Potential: Live at The Lilypad](/pdf/SerenaJade_May19m4a.m4a)
 - [Oscar Hall's Cover of Bright Red by Ryan Beatty: Live at The Lilypad](http://example.com/)
 - [Sample Recording of my Unreleased Track](http://example.com/)
 - [Sample Recording of my cover of Something by Someone](http://example.com/)
