@@ -103,8 +103,8 @@ As the model is trained, it goes through 200 epochs (or complete cycles), with a
 
 Finally, a graphic user interface is programmed in order to interact with the chatbot. Python Tkinter library is used to create this GUI. It is a simple window with a textbox and "Send" button for the user to talk to the bot, and then records the conversation in the space above the button and textbox. 
 
-<img src="images/nltk_chatsc2.png?raw=true"/> <img src="images/nltk_chatsc5.png?raw=true"/>
-
+<img src="images/nltk_chatsc2.png?raw=true"/> 
+<img src="images/nltk_chatsc5.png?raw=true" height="500">
 
 Citations:
 
