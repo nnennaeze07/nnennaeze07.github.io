@@ -35,15 +35,20 @@ Kaggle is a data science platform that hosts machine learning competitions for i
 
 <details>
   <summary>[Serena Jade's 2024 EP Title Track Rainbow Potential: Live at The Lilypad](/pdf/SerenaJade_May19m4a.m4a)</summary>
-  Included Serena Jade (main vocalist), two background vocalists, bass and acoustic guitar, drums, and flute. Two additionals condenser mics were set up to pick up audience and any quieter sounds around the stage.
+  Included Serena Jade (main vocalist), two background vocalists, bass and acoustic guitar, drums, and flute. Two additionals condenser mics were set up to pick up audience and any quieter sounds around the stage. Recorded on Allen & Heath QU-16 Sound Mixer, mixed using Reaper DAW
 </details>
-<detaiils>
+<details>
   <summary>[Oscar Hall's Cover of Bright Red by Ryan Beatty: Live at The Lilypad]</summary>
-  Included Oscar Hall (main vocalist), three background vocalists, two electric guitars, acoustic guitar, drums, and backing track from laptop computer. Two additional condenser mics were set up to pick up audience and any quieter sounds around the stage
-</detaiils>
-- [Serena Jade's 2024 EP Title Track Rainbow Potential: Live at The Lilypad](/pdf/SerenaJade_May19m4a.m4a)
+  Included Oscar Hall (main vocalist), three background vocalists, two electric guitars, acoustic guitar, drums, and backing track from laptop computer. Two additional condenser mics were set up to pick up audience and any quieter sounds around the stage. Recorded on Allen & Heath QU-16 Mixer, mixed using Reaper DAW.
+</details>
+<details>
+  <summary>
+    [Demo Recording of my Unreleased Track](/pdf/Untitled.m4a)
+  </summary>
+  Includes myself on main vocals and background harmonies, two acoustic guitar melodies, and Roland TR-808 Rythm Composer. Recorded using Android smartphone microphone, mixed using Reaper DAW.  
+</details>
 - [Oscar Hall's Cover of Bright Red by Ryan Beatty: Live at The Lilypad](/pdf/OscarHall_May19m4a.m4a)
-- [Demo Recording of my Unreleased Track](/pdf/Untitled.m4a)
+
 <!--  [Sample Recording of my cover of Something by Someone](http://example.com/) -->
 
   <p>A few examples of my recording and mixing experience: all tracks above were recorded and mixed by me (Nnenna Eze). Mixed use of Allen & Heath QU-16 Sound Mixer, Reaper DAW, and home hardware. When recording live performances I opted not to use pitch correction to keep the authenticity of the performance. </p>
