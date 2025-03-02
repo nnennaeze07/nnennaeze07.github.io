@@ -49,6 +49,6 @@ Kaggle is a data science platform that hosts machine learning competitions for i
 </details>
 
 <!--  [Sample Recording of my cover of Something by Someone](http://example.com/) -->
-
+<br>
   <p>A few examples of my recording and mixing experience: all tracks above were recorded and mixed by me (Nnenna Eze). Mixed use of Allen & Heath QU-16 Sound Mixer, Reaper DAW, and home hardware. When recording live performances I opted not to use pitch correction to keep the authenticity of the performance. </p>
 ---
