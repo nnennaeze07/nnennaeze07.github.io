@@ -1,7 +1,7 @@
 ## Choose Your Own Adventure Chatbot Project Page
 
 **Project description:**
-For this project, I create a “Choose Your Own Adventure” chabot through openrouter API with the mistrel 7b model: a model (compatible with ChatGPTs OpenAI package). The chatbot assumes the role of a DND dungeon master that sets up an environment and creates a story that develops based on user interative choices. Gradio is used to create an interface for the chatbot.
+For this project, I created a “Choose Your Own Adventure” chabot through openrouter API with the mistrel 7b model (a model compatible with ChatGPTs OpenAI package). The chatbot assumes the role of a DND dungeon master that sets up an environment and creates a story that develops based on user interative choices. Gradio is used to create an interface for the chatbot.
 
 ### 1. OpenRouter API Call
 
@@ -58,4 +58,3 @@ https://openrouter.ai/docs/requests
 
 https://platform.openai.com/docs/api-reference/introduction
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
