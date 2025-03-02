@@ -15,7 +15,7 @@ The data being worked with is stored in a json file. It contains tags, patterns,
 }
 ```
 
-Here is another example that includes a context value: the user provides input related to the Documents folder, so the chatbot will likely have task relating to the folder.
+Here is another example that includes a context value: the user provides input related to the Documents folder, so the chatbot will likely have a task relating to the folder.
 
 ```json
 {"tag": "documents",
@@ -75,7 +75,7 @@ ytrain = list(training[:,1])
 
 ### 4. Creating and Compiling the Model
 
-An SGD (Stochastic Gradient Descent) model is used to train the data. In an SGD model, instead of using the entire dataset for each iteration, only a small batch is selected to calculate gradient and update the model's parameters. The model parameters are then slightly updated in the direction of the negative gradient until the most optimized parametes are found. The model used contains 3 layers, and has an input shape equal to the length of the training data size. It also uses ReLu (Rectifier Linear Unit) activation, which means positive values pass through the layer unchanged, while negative values are set to zero. It can described simply with the mathematical function f(x) = max(0,x)
+An SGD (Stochastic Gradient Descent) model is used to train the data. In an SGD model, instead of using the entire dataset for each iteration, only a small batch is selected to calculate gradient and update the model's parameters. The model parameters are then slightly updated in the direction of the negative gradient until the most optimized parameters are found. The model contains 3 layers, and has an input shape equal to the length of the training data size. It also uses ReLu (Rectifier Linear Unit) activation, which means positive values pass through the layer unchanged, while negative values are set to zero. It can be described simply with the mathematical function f(x) = max(0,x)
 
 ```python
 model = Sequential([
