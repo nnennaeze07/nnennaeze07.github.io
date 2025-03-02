@@ -34,17 +34,26 @@ Kaggle is a data science platform that hosts machine learning competitions for i
 ### Sound Experience
 
 <details>
-  <summary><a href="https://github.com/nnennaeze07/nnennaeze07.github.io/tree/master/pdf/SerenaJade_May19m4a.m4a">[Serena Jade's 2024 EP Title Track Rainbow Potential: Live at The Lilypad]</a></summary>
+  <summary>[Serena Jade's 2024 EP Title Track Rainbow Potential: Live at The Lilypad]</summary>
+  
+  https://github.com/user-attachments/assets/ac5c899d-12a0-4361-86a4-e6bfd099ee7d
+  
   Includes Serena Jade (main vocalist), two background vocalists, bass and acoustic guitar, drums, and flute. Two additionals condenser mics were set up to pick up audience and any quieter sounds around the stage. Recorded on Allen & Heath QU-16 Sound Mixer, mixed using Reaper DAW
 </details>
 <details>
-  <summary><a href="https://github.com/nnennaeze07/nnennaeze07.github.io/tree/master/pdf/OscarHall_May19m4a.m4a">[Oscar Hall's Cover of Bright Red by Ryan Beatty: Live at The Lilypad]</a></summary>
+  <summary>[Oscar Hall's Cover of Bright Red by Ryan Beatty: Live at The Lilypad]</summary>
+
+   https://github.com/user-attachments/assets/6ba54197-4b68-4ba7-87a2-ecbaa26fdc47
+   
   Includes Oscar Hall (main vocalist), three background vocalists, two electric guitars, acoustic guitar, drums, and backing track from laptop computer. Two additional condenser mics were set up to pick up audience and any quieter sounds around the stage. Recorded on Allen & Heath QU-16 Mixer, mixed using Reaper DAW.
 </details>
 <details>
   <summary>
-    <a href="https://github.com/nnennaeze07/nnennaeze07.github.io/tree/master/pdf/Untitled.m4a">[Demo Recording of my Unreleased Track]</a>
+    [Demo Recording of my Unreleased Track]
   </summary>
+  
+  https://github.com/user-attachments/assets/e56ddb14-1d79-41fb-a656-4c0422522ab7
+  
   Includes myself on main vocals and background harmonies, two acoustic guitar melodies, and Roland TR-808 Rythm Composer. Recorded using Android smartphone microphone, mixed using Reaper DAW.  
 </details>
 
