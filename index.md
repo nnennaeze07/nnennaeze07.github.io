@@ -36,33 +36,31 @@ Kaggle is a data science platform that hosts machine learning competitions for i
 <details>
   <summary>[Serena Jade's 2024 EP Title Track Rainbow Potential: Live at The Lilypad]</summary>
   
-<video width="320" height="240" controls loop="" muted="" autoplay="" playsinline="">
+<video width="320" height="100" controls loop="" muted="" playsinline="">
   <source src="https://github.com/nnennaeze07/nnennaeze07.github.io/raw/refs/heads/master/pdf/SerenaJade_May19.mp4">
 </video>
 
-https://github.com/user-attachments/assets/d7b11cf3-98e0-40e1-a581-d0fc6214525e
-
-
+<!--https://github.com/user-attachments/assets/d7b11cf3-98e0-40e1-a581-d0fc6214525e-->
   Includes Serena Jade (main vocalist), two background vocalists, bass and acoustic guitar, drums, and flute. Two additionals condenser mics were set up to pick up audience and any quieter sounds around the stage. Recorded on Allen & Heath QU-16 Sound Mixer, mixed using Reaper DAW
 </details>
 <details>
   <summary>[Oscar Hall's Cover of Bright Red by Ryan Beatty: Live at The Lilypad]</summary>
-  
-
-https://github.com/user-attachments/assets/c9093640-806a-46e6-98c9-f89dbf0d41e2
-
-
+  <video width="320" height="100" controls loop="" muted="" playsinline="">
+    <source src="https://github.com/nnennaeze07/nnennaeze07.github.io/raw/refs/heads/master/pdf/OscarHall_May19.mp4">
+  </video>
+<!--https://github.com/user-attachments/assets/c9093640-806a-46e6-98c9-f89dbf0d41e2-->
   Includes Oscar Hall (main vocalist), three background vocalists, two electric guitars, acoustic guitar, drums, and backing track from laptop computer. Two additional condenser mics were set up to pick up audience and any quieter sounds around the stage. Recorded on Allen & Heath QU-16 Mixer, mixed using Reaper DAW.
 </details>
 <details>
   <summary>
     [Demo Recording of my Unreleased Track]
   </summary>
-
+  <video width="320" height="100" controls loop="" muted="" playsinline="">
+    <source src="https://github.com/nnennaeze07/nnennaeze07.github.io/raw/refs/heads/master/pdf/SerenaJade_May19.mp4">
+  </video>
   
-https://github.com/user-attachments/assets/5b1d0539-9df7-4617-9817-9f215a53727e
+<!--https://github.com/user-attachments/assets/5b1d0539-9df7-4617-9817-9f215a53727e-->
 
-  
   Includes myself on main vocals and background harmonies, two acoustic guitar melodies, and Roland TR-808 Rythm Composer. Recorded using Android smartphone microphone, mixed using Reaper DAW.  
 </details>
 <!--  [Sample Recording of my cover of Something by Someone](http://example.com/) -->
