@@ -56,8 +56,7 @@ https://github.com/user-attachments/assets/5b1d0539-9df7-4617-9817-9f215a53727e
   
   Includes myself on main vocals and background harmonies, two acoustic guitar melodies, and Roland TR-808 Rythm Composer. Recorded using Android smartphone microphone, mixed using Reaper DAW.  
 </details>
-
 <!--  [Sample Recording of my cover of Something by Someone](http://example.com/) -->
-<br>
+
   <p>A few examples of my recording and mixing experience: all tracks above were recorded and mixed by me (Nnenna Eze). Mixed use of Allen & Heath QU-16 Sound Mixer, Reaper DAW, and home hardware. When recording live performances I opted not to use pitch correction to keep the authenticity of the performance. </p>
 ---
