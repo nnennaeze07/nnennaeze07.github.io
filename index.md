@@ -36,6 +36,9 @@ Kaggle is a data science platform that hosts machine learning competitions for i
 <details>
   <summary>[Serena Jade's 2024 EP Title Track Rainbow Potential: Live at The Lilypad]</summary>
   
+<video width="320" height="240" controls loop="" muted="" autoplay="" playsinline="">
+  <source src="https://github.com/nnennaeze07/nnennaeze07.github.io/raw/refs/heads/master/pdf/SerenaJade_May19.mp4">
+</video>
 
 https://github.com/user-attachments/assets/d7b11cf3-98e0-40e1-a581-d0fc6214525e
 
