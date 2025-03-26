@@ -4,6 +4,9 @@
 
 ### Data Projects 
 
+[Sample Sales Data Report](/sample4_page)
+
+This project is a mock data analysis report for a health worker staffing company that focuses on long term care facilities. It contains several recommendations for a sales and marketing team regarding focus areas that may increase sales for the company and broaden their customer reach. The recommendations in the report are supported using several graphs and charts (created using Tableau) to make the data readable and more digestible to the viewer. The data used was taken from the Center for Medicare and Medicaid Services, or CMS, a federal agency. 
 
 [Choose Your Own Adventure Chatbot](/sample_page)
 
