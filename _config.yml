@@ -12,6 +12,8 @@ description: > # your text below (remove <br> elements if you don't need line br
   <a href="https://github.com/nnennaeze07">View My Github Profile</a>
   <br>
   <a href="/pdf/Eze_Resume_2026.pdf">View My Resume</a>
+  <br>
+  <a href="/pdf/SoundResume_2026.pdf">View My Sound Experience</a>
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
